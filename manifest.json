@@ -1,0 +1,20 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Cobblestone V Dripstone",
+    "description": "Craft 1 pointed dripstone with 3 cobblestone in a V shape.",
+    "uuid": "63fa9723-0ef2-441f-88c6-6ba7a84f8005",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 0]
+  },
+  "modules": [{
+    "type": "data",
+    "uuid": "2fd73ed0-d035-40f4-97ca-a40509a7f6e6",
+    "version": [1, 0, 0],
+    "description": "Adds a V-shaped cobblestone recipe for pointed dripstone."
+  }],
+  "metadata": {
+    "authors": ["Cobblestone V Dripstone"],
+    "license": "MIT"
+  }
+}
