@@ -1,4 +1,4 @@
-name: Validate dripstone behavior pack
+name: Validate Dripstone Behavior Pack
 
 on:
   push:
@@ -15,5 +15,5 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-      - name: Validate MCPACK ZIP, manifest, recipe, icon, and source consistency
+      - name: Validate package
         run: python3 tests/validate_pack.py

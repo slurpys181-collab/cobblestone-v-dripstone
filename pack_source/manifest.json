@@ -2,16 +2,16 @@
   "format_version": 2,
   "header": {
     "name": "Cobblestone V Dripstone",
-    "description": "Craft 4 pointed dripstone using 3 cobblestone in a V shape. For Minecraft Bedrock 26.52.",
+    "description": "Craft 4 pointed dripstone using 3 cobblestone in a V shape. For Minecraft Bedrock 26.60.",
     "uuid": "b1a4c606-f31b-4be8-8448-f81345d1350b",
-    "version": [1, 0, 2],
-    "min_engine_version": [1, 26, 52]
+    "version": [1, 0, 3],
+    "min_engine_version": [1, 26, 60]
   },
   "modules": [
     {
       "type": "data",
       "uuid": "5835a5bb-06fa-4861-bf12-f59df0542251",
-      "version": [1, 0, 2],
+      "version": [1, 0, 3],
       "description": "Adds the cobblestone V-shaped pointed dripstone crafting recipe."
     }
   ]
