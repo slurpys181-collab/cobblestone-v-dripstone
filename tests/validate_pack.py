@@ -5,13 +5,9 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PACK = ROOT / "Craftable_Dripstone_V_Recipe_1.21.60.mcpack"
+PACK = ROOT / "Craftable_Dripstone_V_Recipe_26.52.mcpack"
 SOURCE = ROOT / "pack_source"
-EXPECTED = {
-    "manifest.json",
-    "pack_icon.png",
-    "recipes/pointed_dripstone.json",
-}
+EXPECTED = {"manifest.json", "pack_icon.png", "recipes/pointed_dripstone.json"}
 
 with zipfile.ZipFile(PACK) as archive:
     assert archive.testzip() is None, "ZIP CRC/integrity check failed"
@@ -26,7 +22,7 @@ source_recipe = json.loads((SOURCE / "recipes" / "pointed_dripstone.json").read_
 assert manifest == source_manifest, "Pack manifest differs from source manifest"
 assert recipe == source_recipe, "Pack recipe differs from source recipe"
 assert manifest["format_version"] == 2
-assert manifest["header"]["min_engine_version"] == [1, 21, 60]
+assert manifest["header"]["min_engine_version"] == [1, 26, 52]
 modules = manifest.get("modules", [])
 assert len(modules) == 1 and modules[0]["type"] == "data", "Expected one behavior-pack data module"
 assert manifest["header"]["uuid"] != modules[0]["uuid"], "Header and module UUIDs must differ"
@@ -38,4 +34,4 @@ assert shaped["pattern"] == [" C ", "C C"], "Recipe must look like a V"
 assert sum(row.count("C") for row in shaped["pattern"]) == 3
 assert shaped["key"]["C"]["item"] == "minecraft:cobblestone"
 assert shaped["result"] == {"item": "minecraft:pointed_dripstone", "count": 4}
-print("PASS: valid ZIP, expected pack files, matching source JSON, behavior-pack manifest, PNG icon, 3-cobblestone V recipe -> 4 pointed dripstone")
+print("PASS: valid ZIP, expected pack files, matching source JSON, Bedrock 26.52 behavior-pack manifest, PNG icon, 3-cobblestone V recipe -> 4 pointed dripstone")
