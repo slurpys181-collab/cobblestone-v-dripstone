@@ -2,27 +2,24 @@
   "format_version": "1.20.10",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "cobblestone_v_dripstone:pointed_dripstone"
+      "identifier": "craftable_dripstone:pointed_dripstone_from_cobblestone"
     },
     "tags": ["crafting_table"],
     "pattern": [
-      "# #",
-      "   ",
-      " # "
+      "C C",
+      " C "
     ],
     "key": {
-      "#": {
+      "C": {
         "item": "minecraft:cobblestone"
       }
     },
     "unlock": [
-      {
-        "item": "minecraft:cobblestone"
-      }
+      { "item": "minecraft:cobblestone" }
     ],
     "result": {
       "item": "minecraft:pointed_dripstone",
-      "count": 1
+      "count": 4
     }
   }
 }
