@@ -1,28 +1,23 @@
-# Craftable Dripstone — V Recipe
+# Cobblestone V Dripstone (Minecraft Bedrock 1.21.60)
 
-A Minecraft Bedrock **behavior pack** for Bedrock 1.21.60. Three cobblestone in a V shape crafts **4 pointed dripstone**.
-
-## Download
-
-[**Download the .mcpack**](./Craftable_Dripstone_V_Recipe_1.21.60.mcpack)
+A behavior pack adding one shaped crafting-table recipe.
 
 ## Recipe
 
+Place 3 cobblestone in a **V shape** in the crafting grid:
+
 ```text
-C . C
-. C .
-. . .
-``
+[ ] [C] [ ]
+[C] [ ] [C]
+```
 
-`C` = cobblestone; `.` = empty slot.
-
-**Output:** 4 pointed dripstone.
+Output: **4 pointed dripstone**. The unused slots must be empty.
 
 ## Install
 
-1. Download the `.mcpack` file.
-2. Open it with Minecraft Bedrock to import it.
-3. In your world settings, go to **Behavior Packs → My Packs** and activate **Craftable Dripstone — V Recipe**.
-4. Use a crafting table to craft the recipe.
+1. Download `Craftable_Dripstone_V_Recipe_1.21.60.mcpack`.
+2. Open the downloaded file with Minecraft Bedrock to import it.
+3. Edit a world, go to **Behavior Packs → My Packs**, and activate **Cobblestone V Dripstone**.
+4. Use a crafting table.
 
-The pack targets Bedrock 1.21.60. It has not been tested in a live Minecraft session here.
+This pack uses a standard Bedrock behavior-pack manifest and a shaped recipe JSON file. Package validation checks the ZIP, manifest, recipe JSON, and expected input/output. It has not been launched in Minecraft in this build environment, so an in-game test is still needed.

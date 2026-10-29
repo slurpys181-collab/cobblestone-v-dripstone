@@ -1,39 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#171a1f">
-  <title>Craftable Dripstone — V Recipe</title>
-  <meta name="description" content="Download a Minecraft Bedrock behavior pack: three cobblestone in a V crafts four pointed dripstone.">
-  <style>
-    :root{color-scheme:dark;--bg:#111318;--panel:#1c2028;--line:#343a45;--text:#f3f5f7;--muted:#b5bdc8;--accent:#70d5a2}
-    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at top,#26313a 0,#111318 60%);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;display:grid;place-items:center;padding:28px 16px}
-    main{width:min(720px,100%)}.card{background:rgba(28,32,40,.96);border:1px solid var(--line);border-radius:22px;padding:clamp(22px,5vw,42px);box-shadow:0 20px 80px #0005}
-    .eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.76rem;font-weight:800;color:var(--accent)}h1{font-size:clamp(2rem,7vw,3.4rem);line-height:1.08;margin:10px 0 14px;letter-spacing:-.04em}p{color:var(--muted)}
-    .download{display:inline-block;background:var(--accent);color:#102219;font-weight:850;text-decoration:none;padding:13px 18px;border-radius:12px;margin:12px 0 8px}.download:hover{filter:brightness(1.06);transform:translateY(-1px)}
-    .meta{font-size:.9rem}h2{margin:30px 0 10px;font-size:1.2rem}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;width:min(330px,100%);margin:18px auto 10px}
-    .slot{aspect-ratio:1;display:grid;place-items:center;border:1px solid #555e6b;border-radius:10px;background:linear-gradient(145deg,#333a43,#242a32);font-size:clamp(1.8rem,7vw,2.7rem)}.empty{color:#59616c}
-    .output{text-align:center;border-top:1px solid var(--line);margin-top:22px;padding-top:20px;font-weight:750}code{color:#e4e9ee;background:#101318;border:1px solid var(--line);padding:2px 6px;border-radius:6px}ol{padding-left:22px;color:var(--muted)}footer{font-size:.82rem;color:#87919e;margin-top:18px;text-align:center}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cobblestone V Dripstone</title>
+<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:3rem auto;padding:0 1rem;background:#171b22;color:#f4f5f7}main{background:#242a33;border:1px solid #414a56;border-radius:18px;padding:1.5rem}h1{margin-top:0}a.download{display:inline-block;background:#9ad36a;color:#172011;padding:.8rem 1.1rem;border-radius:9px;text-decoration:none;font-weight:700}.grid{display:grid;grid-template-columns:repeat(3,3.4rem);gap:.45rem;margin:1rem 0}.slot{height:3.4rem;display:grid;place-items:center;background:#414853;border:2px solid #69727d;border-radius:5px;font-size:1.5rem}.stone{background:#858c93;color:#242a33;text-shadow:1px 1px #c7ccd0}.note{color:#cbd2db}</style>
 </head>
-<body><main><article class="card">
-  <div class="eyebrow">Minecraft Bedrock · Behavior Pack</div><h1>Craftable Dripstone</h1>
-  <p>Craft <strong>4 pointed dripstone</strong> from 3 cobblestone arranged in a V. Made for Bedrock 1.21.60.</p>
-  <a class="download" href="./Craftable_Dripstone_V_Recipe_1.21.60.mcpack" download>Download .mcpack</a>
-  <div class="meta">Version 1.0.1 · Minecraft Bedrock 1.21.60</div>
-  <h2>Crafting recipe</h2>
-  <div class="grid" role="img" aria-label="V-shaped recipe: cobblestone at top left and top right, and in the center slot of the second row.">
-    <div class="slot">🪨</div><div class="slot empty">·</div><div class="slot">🪨</div>
-    <div class="slot empty">·</div><div class="slot">🪨</div><div class="slot empty">·</div>
-    <div class="slot empty">·</div><div class="slot empty">·</div><div class="slot empty">·</div>
-  </div>
-  <div class="output">Output: ×4 Pointed Dripstone</div>
-  <h2>How to install</h2><ol>
-    <li>Download the <code>.mcpack</code> file.</li>
-    <li>Open it to import the pack into Minecraft Bedrock.</li>
-    <li>In your world settings, open <strong>Behavior Packs → My Packs</strong> and activate the pack.</li>
-    <li>Craft it using a crafting table.</li>
-  </ol>
-  <p class="meta">Recipe source: <a href="./pack_source/recipes/pointed_dripstone.json">pointed_dripstone.json</a></p>
-</article><footer>Craftable Dripstone — V Recipe · Not an official Minecraft product.</footer></main></body>
-</html>
+<body><main>
+<h1>🪨 Cobblestone V Dripstone</h1>
+<p>Behavior pack for Minecraft Bedrock 1.21.60. Craft <strong>4 pointed dripstone</strong> from 3 cobblestone arranged in a V.</p>
+<div class="grid" aria-label="Crafting recipe: empty, cobblestone, empty; cobblestone, empty, cobblestone"><div class="slot"></div><div class="slot stone">🪨</div><div class="slot"></div><div class="slot stone">🪨</div><div class="slot"></div><div class="slot stone">🪨</div></div>
+<p><strong>Output:</strong> 4 pointed dripstone</p>
+<p><a class="download" href="Craftable_Dripstone_V_Recipe_1.21.60.mcpack" download>Download behavior pack (.mcpack)</a></p>
+<p class="note">Import the file into Minecraft, then activate it under World Settings → Behavior Packs → My Packs. ZIP and JSON structure are validated; this build has not been tested inside the Minecraft game.</p>
+</main></body></html>

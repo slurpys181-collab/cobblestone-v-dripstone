@@ -1,16 +1,30 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Craftable Dripstone — V Recipe",
-    "description": "Craft 4 pointed dripstone from 3 cobblestone in a V shape. For Minecraft Bedrock 1.21.60.",
-    "uuid": "71c963ca-2381-429a-a058-032ee012ab03",
-    "version": [1, 0, 1],
-    "min_engine_version": [1, 21, 60]
+    "name": "Cobblestone V Dripstone",
+    "description": "Craft 4 pointed dripstone using 3 cobblestone in a V shape.",
+    "uuid": "b1a4c606-f31b-4be8-8448-f81345d1350b",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      60
+    ]
   },
-  "modules": [{
-    "type": "data",
-    "uuid": "2c4bcc22-7fb9-46eb-8fc2-5b0102f70b6e",
-    "version": [1, 0, 1],
-    "description": "Adds a V-shaped cobblestone crafting recipe for pointed dripstone."
-  }]
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "5835a5bb-06fa-4861-bf12-f59df0542251",
+      "version": [
+        1,
+        0,
+        1
+      ],
+      "description": "Adds the cobblestone V-shaped pointed dripstone crafting recipe."
+    }
+  ]
 }
